@@ -12,14 +12,15 @@
         android:id="@+id/bienvenida"
         android:layout_width="170dp"
         android:layout_height="58dp"
-        android:layout_marginTop="156dp"
         android:paddingTop="15dp"
         android:text="@string/txt_bienvenida"
         android:textAlignment="center"
         android:textColor="@color/colorBlanco"
         android:textSize="@dimen/titulo"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,10 +35,10 @@
         android:theme="@style/boton_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/bienvenida"
-        app:layout_constraintVertical_bias="0.371" />
+        app:layout_constraintStart_toEndOf="@+id/bienvenida"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
